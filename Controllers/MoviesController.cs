@@ -31,7 +31,7 @@ namespace Moviesapi.Controllers
             {
                 return BadRequest("invalid genre id!");
             }
-            
+            bvxbvx
             using var dataStream = new MemoryStream();
             await dto.Poster.CopyToAsync(dataStream);
             var movie = new Movie()
